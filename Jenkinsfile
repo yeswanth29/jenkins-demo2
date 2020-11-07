@@ -6,5 +6,10 @@ steps{
 echo "building"
 }
 }
+  stage("test"){
+steps{
+echo "Testing"
+}
+}
 }
 }
