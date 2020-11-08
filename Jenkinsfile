@@ -4,6 +4,7 @@ agent any
  
     choice(name:"Version",choices:['1.02','10.2'],description:"")
     booleanParam(name:"environ",defaultValue:true,description:"")
+  }
 stages{
 stage("build"){
 steps{
